@@ -1,0 +1,79 @@
+h2 {
+  text-align: center;
+  font-size: 350%;
+  color: red;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  border: solid blue;
+  border-radius: 15px;
+  padding: 2.5% 1%;
+}
+body section #ecran {
+  display: flex;
+  justify-content: center;
+}
+body section #ecran input {
+  padding: 5%;
+  margin: 2%;
+  width: 75%;
+}
+body section #opperator {
+  display: flex;
+}
+body section #opperator a {
+  font-size: 200%;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: solid 2px red;
+  border-radius: 15px;
+  margin: 2%;
+  padding: auto;
+  width: 100%;
+}
+body section #chiffres .trio1, body section #chiffres .trio2, body section #chiffres .trio3, body section #chiffres .trio4 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+body section #chiffres .trio1 a, body section #chiffres .trio2 a, body section #chiffres .trio3 a, body section #chiffres .trio4 a {
+  font-size: 250%;
+  color: gold;
+  text-decoration: none;
+  border: solid 2px blue;
+  border-radius: 15px;
+  margin: 2%;
+  padding: 1% 1%;
+  width: 100%;
+}
+body section #chiffres #result {
+  display: flex;
+}
+body section #chiffres #result a:nth-child(1) {
+  color: red;
+}
+body section #chiffres #result a:nth-last-child(1) {
+  color: green;
+}
+body section #chiffres #result a {
+  font-size: 200%;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: solid 2px red;
+  border-radius: 15px;
+  margin: 2%;
+  padding: auto;
+  width: 100%;
+}
+
+/*# sourceMappingURL=app.css.map */
