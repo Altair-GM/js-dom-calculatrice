@@ -75,9 +75,9 @@ opperations.forEach(e => {
             screen.value += "/ ";
             operator = "/"
         }
-        if (e.innerText == "C") {
-            MyFunctions.del(screen);
-        }
+        // if (e.innerText == "C") {
+        //     MyFunctions.del(screen);
+        // }
         if (e.innerText == "=") {
             result();
         }
